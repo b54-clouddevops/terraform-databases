@@ -13,3 +13,8 @@ variable "DOCDB_PORT_NUMBER" {}
 variable "DOCDB_INSTANCE_TYPE" {}
 variable "DOCDB_INSTANCE_COUNT" {}
 
+# Redis Variables
+variable "REDIS_PORT_NUMBER" {}
+variable "REDIS_INSTANCE_TYPE" {}
+variable "REDIS_INSTANCE_COUNT" {}
+variable "REDIS_ENGINE_VERSION" {}
