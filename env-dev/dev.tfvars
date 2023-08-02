@@ -10,5 +10,5 @@ MYSQL_INSTANCE_TYPE     = "db.t3.micro"
 
 # DocDB Variables 
 DOCDB_PORT_NUMBER       = 27017
-DOCDB_INSTANCE_TYPE     = "db.t3.micro"
+DOCDB_INSTANCE_TYPE     = "db.t3.medium"
 DOCDB_INSTANCE_COUNT    = 1
