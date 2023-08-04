@@ -33,3 +33,7 @@ module "rabbitmq" {
 }
 
 # You cannot variablize this piece of code in the source parameter
+
+output "data" {
+  value = module.docdb.data
+}
